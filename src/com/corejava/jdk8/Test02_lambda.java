@@ -17,7 +17,7 @@ public class Test02_lambda {
 		};
 		
 		action.execute("lambda implements inner class method");
-	}
+	} 
 	
 	static interface Action{
 		void execute(String content);
