@@ -13,6 +13,6 @@ public class Test07_typeInference<T> {
 	public static void main(String[] args) {
 		final Test07_typeInference<String> value = new Test07_typeInference<>();
 		value.getOrDefault("22", Test07_typeInference.defaultValue());
-	}
+	} 
 	
 }
